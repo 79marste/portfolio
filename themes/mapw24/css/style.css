@@ -1,4 +1,10 @@
 
+:root {
+    --light-color:#d4dbd2;
+    --medium-color:#81967c;
+    --dark-color: #355530;
+}
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -23,7 +29,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: var(--medium-color);
 }
 
 .main {
@@ -37,6 +43,8 @@ body {
 /* Header */
 
 .header, .site-header {
+    background:linear-gradient(to bottom,#0e370c,#81967c);
+    color:#000;
     display: flex;
     justify-content: space-between;
 }
@@ -60,7 +68,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #000;
 }
 
 .title p {
@@ -70,13 +78,15 @@ body {
 /* Footer */
 
 .footer {
+    background:linear-gradient(to bottom,#81967c ,#0e370c);
+    color:#fff;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 2px solid #fff;
 }
 
 .footer a {
-    color: #222;
+    color: #fff;
 }
 
 .footer .social {

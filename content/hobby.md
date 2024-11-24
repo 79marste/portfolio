@@ -6,4 +6,4 @@ Description: Page about my hobby
 Min hobby
 ==================
 
-Sedan tidiga tonåren har jag varvat golf på sommaren och innebandy på vintern. En fin kombo för både egentid såväl som lagidrott.
+På den lilla fritid som blir över fjällvandrar jag gärna eller spelar golf, innebandy & StarCraft - dock ej samtidigt.
