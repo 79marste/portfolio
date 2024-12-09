@@ -1,0 +1,42 @@
+$base-line-height: 1.4;
+$base-font-size: 1.4rem;
+$vertical-rhythm: $base-line-height * $base-font-size; /* 1.4 x 1.4 = 1.96rem */
+
+body {
+  line-height: $base-line-height;
+  color: $font-color;
+  font-family: $paragraph-font;
+}
+
+p {
+  font-size: $base-font-size;
+  font-family: $paragraph-font;
+  margin-bottom: $vertical-rhythm;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: $header-font;
+  letter-spacing: 3px;
+  margin-bottom: $vertical-rhythm * 2;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: $header-font;
+  margin-bottom: $vertical-rhythm;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: $header-font;
+  margin-bottom: $vertical-rhythm;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  font-family: $header-font;
+  margin-bottom: $vertical-rhythm;
+}

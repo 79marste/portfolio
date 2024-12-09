@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $dramatic-clouds-3-hex;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 2rem;
+}
+
+.nav a:hover {
+  border-bottom: 4px solid $accent-color;
+}
+
+.nav .active a {
+  border-bottom: 4px solid $dramatic-clouds-2-hex;
+}
+
+.title * {
+  color: $font-color;
+  margin: 0;
+}

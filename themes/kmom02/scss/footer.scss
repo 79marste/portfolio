@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: $dramatic-clouds-1-hex;
+  color: $font-alternative-color;
+}
+
+.footer a {
+  color: $font-alternative-color;
+}
+
+.footer .social {
+  font-size: 2.5rem;
+}
